@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.testScripts.DiscoveryTest">
+        <methods>
+          <include name="URLValidation"/>
+          <include name="browserSetUp"/>
+          <include name="addVideosToFavorites"/>
+          <include name="validateRecommendedVideos"/>
+          <include name="verifyVideos"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.testScripts.DiscoveryTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
